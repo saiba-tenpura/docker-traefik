@@ -1,5 +1,5 @@
 services:
-  traefik-proxy:
+  traefik:
     image: traefik:v3.7.12
     restart: unless-stopped
     ports:
