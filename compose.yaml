@@ -24,4 +24,5 @@ services:
 networks:
   default:
     name: proxy-network
-    external: true
+    driver: bridge
+    attachable: true
